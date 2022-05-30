@@ -1,0 +1,102 @@
+#app {
+   display: block;
+   padding: 1em;
+   font-size: 1em;
+ }
+
+ html {
+   background-color: aliceblue;
+   font-family: sans-serif;
+ }
+
+ p {
+   margin: 1em;
+ }
+
+ table {
+   font-family: sans-serif;
+   border-radius: 0.25em;
+   border: none;
+   border-left: none;
+   border-right: none;
+   table-layout: fixed;
+   width: 100%;
+ }
+
+ thead th {
+   border-bottom: 1px solid darkgray;
+ }
+
+ th, td {
+   column-width: inherit;
+   overflow: hidden;
+ }
+
+ input[ type="text" ] {
+   width: 50%;
+   height: 1.5em;
+   border-radius: 0.25em;
+ }
+
+ button {
+   margin-left: 1em;
+   width: 40%;
+   height: 2em;
+   border: 1px solid #666;
+   border-radius: 0.25em;
+ }
+
+ .button-zone {
+   width: 50%;
+ }
+
+ .btn-warning {
+   background-color: #f0ad4e;
+   float: right;
+   margin-right: 1em;
+ }
+
+ .table {
+   padding: 0.5em;
+   width: 50%;
+   height: 8em;
+   margin-top: 1em;
+   margin-bottom: 1em;
+   overflow-y: auto;
+   border: 1px solid darkgray;
+   border-radius: 0.25em;
+   background-color: lightgray
+ }
+
+ .table thead th {
+   position: sticky;
+   top: 0;
+ }
+
+ .table::-webkit-scrollbar {
+   width: 16px;
+ }
+
+ .table::-webkit-scrollbar-track {
+   background-color: #f1f1f1;
+   border-radius: 110px;
+ }
+
+ .table::-webkit-scrollbar-thumb {
+   background-color: #888;
+   border-radius: 100px;
+ }
+
+ .highlight {
+   background-color: darkgray;
+ }
+
+ .bigFont {
+   font-size: xx-large;
+   font-weight: bold;
+ }
+
+ .smallFont {
+   font-size: smaller;
+   font-weight: lighter;
+ }
